@@ -1,0 +1,5 @@
+<!-- Représente un profil de synchronisation -->
+<!ELEMENT profile (name, pathA, pathB)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT pathA (#PCDATA)>
+<!ELEMENT pathB (#PCDATA)>

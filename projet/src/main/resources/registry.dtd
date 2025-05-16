@@ -1,0 +1,7 @@
+<!-- Représente un registre de synchronisation -->
+<!ELEMENT registry (entry*)>
+<!ATTLIST registry profile CDATA #REQUIRED>
+
+<!ELEMENT entry (path, timestamp)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT timestamp (#PCDATA)>
